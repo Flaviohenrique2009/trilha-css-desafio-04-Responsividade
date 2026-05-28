@@ -61,8 +61,6 @@ header .content p {
     font-family: var(--font-padrao);
     font-weight: 400;
     font-size: 16px;
-    align-items: center;
-    justify-content: center;
     margin: 55px;
     margin-bottom: 25px;
 
@@ -94,19 +92,397 @@ header .content .btn button:last-child {
 main .section-1 {
     width: 971px;
     height: 394px;
-    background-color: blue;
     margin: 40px auto;
-
 }
+
 
 main .section-content {
     display: flex;
 }
-main .section-content img{
+
+main .section-content img {
     width: 607px;
-    height:394px;
+    height: 394px;
 }
+
 main .section-1 .textos {
-    width:348px;
-    height:374px;
+    width: 348px;
+    height: 374px;
+
+}
+
+main .section-1 #titulo-sessão-1 {
+    width: 329px;
+    height: 270px;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+main .section-1 .textos p {
+    width: 348px;
+    height: 88px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #23272A;
+    margin: 0 auto;
+}
+
+main .section-2 {
+    width: 1, 280px;
+    height: 448px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+
+}
+
+main .section-2 img {
+    /* width: 607px; */
+    /* height: 394px; */
+    order: 1;
+
+}
+
+main .section-2 .textos {
+    width: 351px;
+    height: 212px;
+    margin: 140px auto;
+}
+
+main .section-2 #titulo-sessão-2 {
+    width: 329px;
+    height: 108px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+main .section-2 .textos p {
+    width: 348px;
+    height: 88px;
+    margin: 12px auto;
+}
+
+main .section-3 {
+    width: 1, 280px;
+    height: 448px;
+    margin: 60px auto;
+
+}
+
+main .section-3 img {
+    width: 607px;
+    height: 394px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section-3 .textos {
+    width: 351px;
+    height: 234px;
+    margin: 60px;
+
+
+
+}
+
+main .section-3 #titulo-sessão-3 {
+    width: 329px;
+    height: 108px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+main .section-3 .textos p {
+    width: 348px;
+    height: 110px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 30px auto;
+
+}
+
+main .section-4 {
+    width: 1, 280px;
+    height: 744px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section-4 img {
+    width: 784px;
+    height: 508px;
+}
+
+main .section-4 #titulo-sessão-4 {
+    width: 608px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: var(--font-title);
+    margin: 30px auto;
+    text-align: center;
+}
+
+main .section-4 .textos p {
+    width: 802px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    margin: 30px auto;
+    color: #23272A;
+
+}
+
+footer {
+    background-color: var(--color-black);
+    width: 1, 280px;
+    height: 134px;
+    padding: 35px;
+}
+
+footer .frame {
+    margin: auto;
+    width: 230px;
+    height: 63px;
+}
+
+footer .frame img {
+    width: 100%;
+
+}
+
+
+@media screen and (max-width: 576px) {
+    body {
+        max-width: 100%;
+        width: 428px;
+        margin: 0 auto;
+    }
+
+    header {
+        height: 505px;
+        background-position: -720px;
+        padding-top: 69px;
+    }
+
+    header .content {
+        width: 100%;
+        height: 366px;
+        padding: 0 24px;
+        justify-content: flex-start;
+    }
+
+    header .content h1 {
+        width: 278px;
+        height: 64px;
+        text-align: left;
+        font-family: var(--font-title);
+        font-size: 32px;
+        align-self: flex-start;
+    }
+
+    header .content p {
+        width: 381px;
+        height: 132px;
+        text-align: left;
+        margin: 24px 0;
+
+
+    }
+
+    header .content .btn {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+
+    }
+
+    header .content .btn button {
+        width: 381px;
+        height: 54px;
+
+    }
+
+    header .content .btn button:last-child {
+        width: 381px;
+        height: 52px;
+
+    }
+
+
+
+
+    main .section-content {
+        width: 100%;
+        height: 507px;
+        flex-direction: column;
+    }
+
+    main .section-content img {
+        width: 379px;
+        height: 252px;
+    }
+
+
+    main .section-1 {
+        width: 428px;
+        height: 573px;
+    }
+
+
+
+
+    main .section-1 #titulo-sessão-1 {
+        width: 370px;
+        height: 99px;
+        margin: 10px;
+        font-weight: 800;
+        font-size: 24px;
+
+    }
+
+    main .section-1 .textos p {
+        width: 370px;
+        height: 88px;
+        margin: 0 auto;
+    }
+
+    main .section-2 {
+        width: 1, 280px;
+        height: 448px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6F6F6;
+
+    }
+
+    main .section-2 img {
+
+        order: 0;
+
+    }
+
+    main .section-2 .textos {
+        width: 351px;
+        height: 212px;
+        margin: 140px auto;
+    }
+
+    main .section-2 #titulo-sessão-2 {
+        width: 329px;
+        height: 108px;
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    main .section-2 .textos p {
+        width: 348px;
+        height: 88px;
+        margin: 12px auto;
+    }
+
+    main .section-3 {
+        width: 1, 280px;
+        height: 448px;
+        margin: 60px auto;
+
+    }
+
+    main .section-3 img {
+        width: 379px;
+        height: 252px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .section-3 .textos {
+        width: 351px;
+        height: 234px;
+        margin: 60px;
+
+
+
+    }
+
+    main .section-3 #titulo-sessão-3 {
+        width: 329px;
+        height: 108px;
+        font-weight: 800;
+        font-size: 24px;
+
+    }
+
+    main .section-3 .textos p {
+        width: 348px;
+        height: 110px;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 30px auto;
+
+    }
+
+    main .section-4 {
+        width: 1, 280px;
+        height: 744px;
+        background-color: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .section-4 img {
+        width: 379px;
+        height: 252px;
+    }
+
+    main .section-4 #titulo-sessão-4 {
+        width: 608px;
+        height: 80px;
+        font-weight: 800;
+        font-size: 24px;
+        font-family: var(--font-title);
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    main .section-4 .textos p {
+        width: 802px;
+        height: 44px;
+        font-size: 16px;
+        font-weight: 400;
+        align-items: center;
+        margin: 30px auto;
+        color: #23272A;
+
+    }
+
+
+
+    footer {
+        background-color: var(--color-black);
+        width: 1, 280px;
+        height: 134px;
+        padding: 35px;
+    }
+
+    footer .frame {
+        margin: auto;
+        width: 230px;
+        height: 63px;
+    }
+
+    footer .frame img {
+        width: 100%;
+
+    }
+
+
 }
